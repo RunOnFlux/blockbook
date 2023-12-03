@@ -26,7 +26,7 @@
     "binary_url": "https://gitlab.com/cloreai-public/clore-blockchain-binaries/-/raw/main/releases/1.0.0/CLORE-Blockchain-ubuntu-22.04.tar",
     "verification_type": "sha256",
     "verification_source": "d0c9b7619dfb59c4bcc7659834c8c016008a33a410232485b541371cde941ce7",
-    "extract_command": "tar -C backend --strip 1 -xf",
+    "extract_command": "tar -C backend --strip 0 -xf",
     "exclude_files": [
       "bin/clore-qt"
     ],
