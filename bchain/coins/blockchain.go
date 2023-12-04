@@ -47,6 +47,7 @@ import (
 	"github.com/trezor/blockbook/bchain/coins/polygon"
 	"github.com/trezor/blockbook/bchain/coins/qtum"
 	"github.com/trezor/blockbook/bchain/coins/ravencoin"
+	"github.com/runonflux/blockbook/bchain/coins/clore"
 	"github.com/trezor/blockbook/bchain/coins/ritocoin"
 	"github.com/trezor/blockbook/bchain/coins/snowgem"
 	"github.com/trezor/blockbook/bchain/coins/trezarcoin"
@@ -122,7 +123,7 @@ func init() {
 	BlockChainFactories["VIPSTARCOIN"] = vipstarcoin.NewVIPSTARCOINRPC
 	BlockChainFactories["Flux"] = zec.NewZCashRPC
 	BlockChainFactories["Ravencoin"] = ravencoin.NewRavencoinRPC
-	BlockChainFactories["Clore"] = ravencoin.NewRavencoinRPC
+	BlockChainFactories["Clore"] = clore.NewCloreRPC
 	BlockChainFactories["Ritocoin"] = ritocoin.NewRitocoinRPC
 	BlockChainFactories["Divi"] = divi.NewDiviRPC
 	BlockChainFactories["CPUchain"] = cpuchain.NewCPUchainRPC
